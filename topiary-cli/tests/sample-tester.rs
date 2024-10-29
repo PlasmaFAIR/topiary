@@ -69,6 +69,8 @@ fn input_output_tester() {
 
     #[cfg(feature = "tree_sitter_query")]
     io_test("tree_sitter_query.scm");
+
+    io_test("fortran.f90");
 }
 
 // Test that our query files are properly formatted

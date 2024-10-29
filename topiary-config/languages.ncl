@@ -99,4 +99,12 @@
       },
     },
   },
+
+  fortran = {
+    extensions = ["f90", "f95"],
+    grammar = {
+      git = "https://github.com/stadelmanma/tree-sitter-fortran.git",
+      rev = "831f5594071e7cd1f4c514e40433080bcd3617e3"
+    }
+  }
 }
